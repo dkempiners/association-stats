@@ -287,6 +287,75 @@
       var ctx = document.getElementById('expected_standings_chart').getContext("2d");
       var myNewChart = new Chart(ctx, chart_data);
     </script>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Actual</th>
+          <th>Expected</th>
+          <th>Diff</th>
+          <th>Percentile Rank</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Colin</td>
+          <td>140</td>
+          <td>137.5</td>
+          <td>2.5</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td>Anthony</td>
+          <td>127</td>
+          <td>119</td>
+          <td>8</td>
+          <td>92</td>
+        </tr>
+        <tr>
+          <td>Darren</td>
+          <td>125.5</td>
+          <td>122.5</td>
+          <td>3</td>
+          <td>69</td>
+        </tr>
+        <tr>
+          <td>Felix</td>
+          <td>124</td>
+          <td>131</td>
+          <td>-7</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>Andrew</td>
+          <td>108.5</td>
+          <td>102</td>
+          <td>6.5</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Calvin</td>
+          <td>102</td>
+          <td>108.5</td>
+          <td>-6.5</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Victor</td>
+          <td>92</td>
+          <td>98</td>
+          <td>-6</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>Dummy</td>
+          <td>21</td>
+          <td>21</td>
+          <td>0</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
   <div id='year_team_stats'>
