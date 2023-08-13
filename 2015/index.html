@@ -296,18 +296,18 @@
         <tr>
           <td>Anthony</td>
           <td>90</td>
-          <td>99</td>
-          <td>1</td>
-          <td>0.476</td>
-          <td>29.5</td>
+          <td>100</td>
+          <td>0</td>
+          <td>0.474</td>
+          <td>30</td>
         </tr>
         <tr>
           <td>Supin</td>
           <td>89</td>
-          <td>100</td>
-          <td>1</td>
-          <td>0.471</td>
-          <td>30.5</td>
+          <td>101</td>
+          <td>0</td>
+          <td>0.468</td>
+          <td>31</td>
         </tr>
         <tr>
           <td>Sean</td>
@@ -320,16 +320,16 @@
         <tr>
           <td>Victor</td>
           <td>69</td>
-          <td>120</td>
-          <td>1</td>
-          <td>0.366</td>
-          <td>50.5</td>
+          <td>121</td>
+          <td>0</td>
+          <td>0.363</td>
+          <td>51</td>
         </tr>
       </tbody>
     </table>
     <canvas id='expected_standings_chart'></canvas>
     <script type="text/javascript">
-      var chart_data = {"data": {"labels": ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8", "Week 9", "Week 10", "Week 11", "Week 12", "Week 13", "Week 14", "Week 15", "Week 16", "Week 17", "Week 18", "Week 19"], "datasets": [{"borderColor": "rgba(166,206,227,0.8)", "stepped": "middle", "data": [-4.5, -7.0, -6.5, -7.5, -12.0, -14.5, -15.5, -15.0, -16.0, -15.5, -15.0, -14.5, -17.0, -18.5, -21.5, -24.5, -27.0, -27.5, -29.5], "hoverBorderColor": "rgba(166,206,227,1)", "label": "Anthony"}, {"borderColor": "rgba(31,120,180,0.8)", "stepped": "middle", "data": [-4.5, -8.0, -10.5, -12.5, -15.5, -17.5, -19.5, -19.0, -16.0, -19.0, -22.5, -22.5, -26.0, -28.0, -31.0, -32.0, -32.5, -33.5, -37.0], "hoverBorderColor": "rgba(31,120,180,1)", "label": "Sean"}, {"borderColor": "rgba(178,223,138,0.8)", "stepped": "middle", "data": [-4.5, -6.0, -9.5, -12.0, -14.5, -17.5, -16.0, -16.5, -15.5, -17.5, -18.5, -17.5, -22.0, -23.0, -21.5, -20.5, -20.5, -20.5, -21.0], "hoverBorderColor": "rgba(178,223,138,1)", "label": "Colin"}, {"borderColor": "rgba(51,160,44,0.8)", "stepped": "middle", "data": [0.0, -3.0, -5.5, -8.5, -9.0, -7.5, -5.5, -7.5, -7.5, -9.5, -11.0, -10.5, -15.0, -17.5, -16.5, -17.5, -18.5, -20.5, -22.0], "hoverBorderColor": "rgba(51,160,44,1)", "label": "Darren"}, {"borderColor": "rgba(251,154,153,0.8)", "stepped": "middle", "data": [-0.5, -1.0, -2.0, -3.0, -4.5, -5.5, -3.0, -2.0, 0.0, 0.0, 0.0, -0.5, -4.5, -7.0, -8.0, -7.0, -8.0, -8.5, -10.0], "hoverBorderColor": "rgba(251,154,153,1)", "label": "Andrew"}, {"borderColor": "rgba(227,26,28,0.8)", "stepped": "middle", "data": [-0.5, -0.5, -2.0, -4.0, -4.5, -4.0, -3.5, -2.5, -2.5, -4.0, -6.5, -9.0, -14.0, -19.0, -19.5, -19.0, -22.5, -24.5, -29.0], "hoverBorderColor": "rgba(227,26,28,1)", "label": "Felix"}, {"borderColor": "rgba(253,191,111,0.8)", "stepped": "middle", "data": [-0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -3.0, -1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "hoverBorderColor": "rgba(253,191,111,1)", "label": "Ryan"}, {"borderColor": "rgba(255,127,0,0.8)", "stepped": "middle", "data": [-3.5, -5.0, -5.0, -7.5, -10.5, -12.5, -10.5, -8.5, -7.5, -9.0, -7.5, -10.5, -14.0, -14.5, -15.5, -15.5, -18.0, -17.0, -20.0], "hoverBorderColor": "rgba(255,127,0,1)", "label": "Calvin"}, {"borderColor": "rgba(202,178,214,0.8)", "stepped": "middle", "data": [-3.5, -5.5, -7.5, -12.5, -14.5, -16.0, -18.0, -20.0, -19.0, -22.5, -23.0, -24.0, -31.0, -34.5, -36.0, -38.5, -42.0, -45.0, -50.5], "hoverBorderColor": "rgba(202,178,214,1)", "label": "Victor"}, {"borderColor": "rgba(106,61,154,0.8)", "stepped": "middle", "data": [-3.5, -4.0, -6.0, -7.0, -9.5, -10.0, -9.0, -8.5, -10.5, -15.0, -14.0, -16.5, -21.5, -23.0, -25.0, -26.0, -25.0, -27.5, -30.5], "hoverBorderColor": "rgba(106,61,154,1)", "label": "Supin"}]}, "type": "line", "options": {"scales": {"y": {"title": {"text": "Games Back", "display": true}}}, "plugins": {"title": {"text": "Expected Games Back", "display": true}}}};
+      var chart_data = {"data": {"labels": ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8", "Week 9", "Week 10", "Week 11", "Week 12", "Week 13", "Week 14", "Week 15", "Week 16", "Week 17", "Week 18", "Week 19"], "datasets": [{"borderColor": "rgba(166,206,227,0.8)", "stepped": "middle", "data": [-4.0, -7.0, -6.0, -7.0, -12.0, -14.0, -16.0, -15.0, -16.0, -15.0, -15.0, -14.0, -17.0, -18.0, -21.0, -25.0, -27.0, -27.0, -30.0], "hoverBorderColor": "rgba(166,206,227,1)", "label": "Anthony"}, {"borderColor": "rgba(31,120,180,0.8)", "stepped": "middle", "data": [-4.0, -8.0, -10.0, -12.0, -15.0, -17.0, -20.0, -19.0, -16.0, -19.0, -23.0, -22.0, -26.0, -28.0, -31.0, -32.0, -32.0, -33.0, -37.0], "hoverBorderColor": "rgba(31,120,180,1)", "label": "Sean"}, {"borderColor": "rgba(178,223,138,0.8)", "stepped": "middle", "data": [-4.0, -6.0, -9.0, -12.0, -14.0, -17.0, -16.0, -17.0, -15.0, -17.0, -19.0, -17.0, -22.0, -23.0, -21.0, -21.0, -20.0, -20.0, -21.0], "hoverBorderColor": "rgba(178,223,138,1)", "label": "Colin"}, {"borderColor": "rgba(51,160,44,0.8)", "stepped": "middle", "data": [0.0, -3.0, -5.0, -8.0, -9.0, -7.0, -6.0, -8.0, -7.0, -9.0, -11.0, -10.0, -15.0, -17.0, -16.0, -18.0, -18.0, -20.0, -22.0], "hoverBorderColor": "rgba(51,160,44,1)", "label": "Darren"}, {"borderColor": "rgba(251,154,153,0.8)", "stepped": "middle", "data": [0.0, -2.0, -2.0, -3.0, -4.0, -5.0, -3.0, -2.0, 0.0, 0.0, 0.0, 0.0, -4.0, -7.0, -8.0, -7.0, -8.0, -8.0, -10.0], "hoverBorderColor": "rgba(251,154,153,1)", "label": "Andrew"}, {"borderColor": "rgba(227,26,28,0.8)", "stepped": "middle", "data": [0.0, -1.0, -2.0, -4.0, -4.0, -4.0, -4.0, -3.0, -2.0, -4.0, -7.0, -9.0, -14.0, -19.0, -19.0, -19.0, -22.0, -24.0, -29.0], "hoverBorderColor": "rgba(227,26,28,1)", "label": "Felix"}, {"borderColor": "rgba(253,191,111,0.8)", "stepped": "middle", "data": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -3.0, -2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "hoverBorderColor": "rgba(253,191,111,1)", "label": "Ryan"}, {"borderColor": "rgba(255,127,0,0.8)", "stepped": "middle", "data": [-3.0, -5.0, -5.0, -7.0, -10.0, -12.0, -11.0, -9.0, -7.0, -9.0, -8.0, -10.0, -14.0, -14.0, -15.0, -16.0, -18.0, -17.0, -20.0], "hoverBorderColor": "rgba(255,127,0,1)", "label": "Calvin"}, {"borderColor": "rgba(202,178,214,0.8)", "stepped": "middle", "data": [-3.0, -6.0, -7.0, -12.0, -14.0, -16.0, -18.0, -20.0, -19.0, -22.0, -23.0, -24.0, -31.0, -34.0, -36.0, -39.0, -42.0, -45.0, -51.0], "hoverBorderColor": "rgba(202,178,214,1)", "label": "Victor"}, {"borderColor": "rgba(106,61,154,0.8)", "stepped": "middle", "data": [-3.0, -4.0, -6.0, -7.0, -9.0, -10.0, -9.0, -9.0, -10.0, -15.0, -14.0, -16.0, -21.0, -23.0, -25.0, -26.0, -25.0, -27.0, -31.0], "hoverBorderColor": "rgba(106,61,154,1)", "label": "Supin"}]}, "type": "line", "options": {"scales": {"y": {"title": {"text": "Games Back", "display": true}}}, "plugins": {"title": {"text": "Expected Games Back", "display": true}}}};
       var ctx = document.getElementById('expected_standings_chart').getContext("2d");
       var myNewChart = new Chart(ctx, chart_data);
     </script>
@@ -356,7 +356,7 @@
           <td>118</td>
           <td>110</td>
           <td>8</td>
-          <td>91</td>
+          <td>92</td>
         </tr>
         <tr>
           <td>Felix</td>
@@ -368,9 +368,9 @@
         <tr>
           <td>Supin</td>
           <td>97</td>
-          <td>89.5</td>
-          <td>7.5</td>
-          <td>87</td>
+          <td>89</td>
+          <td>8</td>
+          <td>89</td>
         </tr>
         <tr>
           <td>Darren</td>
@@ -384,7 +384,7 @@
           <td>94</td>
           <td>99</td>
           <td>-5</td>
-          <td>24</td>
+          <td>27</td>
         </tr>
         <tr>
           <td>Calvin</td>
@@ -396,23 +396,23 @@
         <tr>
           <td>Anthony</td>
           <td>83</td>
-          <td>90.5</td>
-          <td>-7.5</td>
-          <td>13</td>
+          <td>90</td>
+          <td>-7</td>
+          <td>15</td>
         </tr>
         <tr>
           <td>Sean</td>
           <td>83</td>
           <td>83</td>
           <td>0</td>
-          <td>50</td>
+          <td>54</td>
         </tr>
         <tr>
           <td>Victor</td>
           <td>67</td>
-          <td>69.5</td>
-          <td>-2.5</td>
-          <td>37</td>
+          <td>69</td>
+          <td>-2</td>
+          <td>39</td>
         </tr>
       </tbody>
     </table>
