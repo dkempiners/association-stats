@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/association-stats/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	
+		<link rel="modulepreload" href="/association-stats/_app/immutable/entry/start.8ac6eaed.js">
+		<link rel="modulepreload" href="/association-stats/_app/immutable/chunks/scheduler.0ec601fd.js">
+		<link rel="modulepreload" href="/association-stats/_app/immutable/chunks/singletons.e2f5376e.js">
+		<link rel="modulepreload" href="/association-stats/_app/immutable/chunks/paths.068f1e14.js">
+		<link rel="modulepreload" href="/association-stats/_app/immutable/entry/app.f45f3872.js">
+		<link rel="modulepreload" href="/association-stats/_app/immutable/chunks/index.ba5bb4ea.js">
+</head>
+
+<body data-sveltekit-preload-data="hover" data-theme="wintry">
+	<div style="display: contents" class="h-full overflow-hidden">
+			<script>
+				{
+					__sveltekit_kz7bp5 = {
+						assets: "/association-stats",
+						base: "/association-stats",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/association-stats/_app/immutable/entry/start.8ac6eaed.js"),
+						import("/association-stats/_app/immutable/entry/app.f45f3872.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+</body>
+
+</html>
